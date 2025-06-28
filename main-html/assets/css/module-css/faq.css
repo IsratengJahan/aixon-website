@@ -1,0 +1,225 @@
+/*==============================================
+   FAQ One
+===============================================*/
+.faq-one {
+    position: relative;
+    display: block;
+    z-index: 1;
+    padding: 90px 0 110px;
+}
+
+.faq-one__left {
+    position: relative;
+    display: block;
+}
+
+.faq-one__left .section-title-three {
+    margin-bottom: 31px;
+}
+
+.faq-one__left .section-title-three__title {
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 600;
+}
+
+.faq-one__text {
+    line-height: 29px;
+    margin-bottom: 54px;
+}
+
+.faq-one-accrodion .accrodion-one {
+    position: relative;
+    display: block;
+    border-bottom: 1px solid var(--gizmo-gray);
+}
+
+.faq-one-accrodion .accrodion-title {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    padding: 20px 0 20px;
+}
+
+.faq-one-accrodion .accrodion-title h4 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    position: relative;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.faq-one .faq-one-accrodion .accrodion+.accrodion {
+    margin-top: 10px;
+}
+
+.faq-one-accrodion .accrodion-title h4::before {
+    content: "\f067";
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 700;
+    font-size: 15px;
+    color: #666666;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    line-height: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    text-align: center;
+    width: 21px;
+    height: 21px;
+}
+
+.faq-one-accrodion .accrodion.active .accrodion-title h4::before {
+    content: "\f068";
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq-one-accrodion .accrodion-content {
+    position: relative;
+    padding-bottom: 23px;
+    padding-right: 70px;
+    margin-top: -9px;
+}
+
+.faq-one-accrodion .accrodion-content p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 29px;
+}
+
+/*--------------------------------------------------------------
+# FAQ Two
+--------------------------------------------------------------*/
+.faq-two {
+    position: relative;
+    display: block;
+    padding-top: 100px;
+    z-index: 1;
+}
+
+.faq-two__inner {
+    position: relative;
+    display: block;
+    padding-bottom: 100px;
+}
+
+.faq-two__left {
+    position: relative;
+    display: block;
+    margin-right: 70px;
+}
+
+.faq-two__left .section-title-three {
+    margin-bottom: 37px;
+}
+
+.faq-two__left .section-title-three__title {
+    color: var(--gizmo-black);
+}
+
+.faq-two__btn-box {
+    margin-top: 43px;
+}
+
+.faq-two__right {
+    position: relative;
+    display: block;
+    margin-left: 40px;
+}
+
+.faq-two__right .faq-one-accrodion .accrodion {
+    position: relative;
+    display: block;
+}
+
+.faq-two__right .faq-one-accrodion .accrodion-title {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    border: 1px solid var(--aixon-gray);
+    border-radius: 6px;
+    padding: 16px;
+}
+
+.faq-two__right .faq-one-accrodion .accrodion-title h4 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.03em;
+    color: var(--gizmo-black);
+    font-family: var(--gizmo-font);
+    position: relative;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.faq-two__right .faq-one-accrodion .accrodion.active .accrodion-title h4 {
+    color: var(--gizmo-black);
+}
+
+.faq-two__right .faq-one-accrodion .accrodion+.accrodion {
+    margin-top: 33px;
+}
+
+.faq-two__right .faq-one-accrodion .accrodion-title h4::before {
+    content: "\e913";
+    font-family: 'icomoon' !important;
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--gizmo-gray);
+    position: absolute;
+    top: 50%;
+    right: 0;
+    line-height: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    text-align: center;
+    width: 21px;
+    height: 21px;
+}
+
+.faq-two__right .faq-one-accrodion .accrodion.active .accrodion-title h4::before {
+    content: "\e913";
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(90deg);
+}
+
+.faq-two__right .faq-one-accrodion .accrodion-content {
+    position: relative;
+    padding-top: 25px;
+    padding-left: 25px;
+    border-radius: 6px;
+    box-shadow: rgba(190, 193, 196, 0.2) 0px 8px 24px;
+}
+
+.faq-two__right .faq-one-accrodion .accrodion-content p {
+    margin: 0;
+}
+
+/*--------------------------------------------------------------
+# End
+--------------------------------------------------------------*/

@@ -1,0 +1,143 @@
+/*--------------------------------------------------------------
+# Testimonial Three
+--------------------------------------------------------------*/
+.testimonial-three {
+    position: relative;
+    display: block;
+    padding: 90px 0 140px;
+    z-index: 1;
+}
+
+.testimonial-three__left {
+    position: relative;
+    display: block;
+    margin-right: 93.5px;
+}
+
+.testimonial-three__img-box {
+    position: relative;
+    display: block;
+}
+
+.testimonial-three__img {
+    position: relative;
+    display: block;
+}
+
+.testimonial-three__right {
+    position: relative;
+    display: block;
+    margin-top: 45px;
+    margin-left: 85px;
+    margin-right: 85px;
+}
+
+.testimonial-three__single {
+    position: relative;
+    display: block;
+}
+
+.testimonial-three__quote-and-client-info {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.testimonial-three__quote {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.testimonial-three__quote span {
+    position: relative;
+    display: inline-block;
+    font-size: 30px;
+    color: var(--axion-black);
+}
+
+.testimonial-three__client-info {
+    position: relative;
+    display: block;
+}
+
+.testimonial-three__client-name {
+    position: relative;
+    display: block;
+}
+
+.testimonial-three__client-name a {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--gizmo-white);
+    line-height: 22px;
+    letter-spacing: -0.03em;
+}
+
+.testimonial-three__client-name span {
+    color: var(--gizmo-base);
+}
+
+.testimonial-three__text {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--gizmo-white);
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    margin-top: 22px;
+    margin-bottom: 38px;
+}
+
+.testimonial-three__review {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+.testimonial-three__review span {
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    color: var(--gizmo-base);
+}
+
+
+.testimonial-three__carousel.owl-carousel .owl-dots {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-top: 55px !important;
+}
+
+.testimonial-three__carousel.owl-carousel .owl-dots .owl-dot {
+    width: 25px;
+    height: 2px;
+    background-color: transparent;
+    border: 2px solid var(--gizmo-gray);
+    margin: 0;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.testimonial-three__carousel.owl-carousel .owl-dot.active {
+    background-color: rgba(var(--gizmo-base-rgb), 1);
+    border: 2px solid var(--axion-black);
+}
+
+.testimonial-three__carousel.owl-carousel .owl-dot:focus {
+    outline: none;
+}
+
+.testimonial-three__carousel.owl-carousel .owl-dots .owl-dot span {
+    display: none;
+}
+
+/*--------------------------------------------------------------
+# End
+--------------------------------------------------------------*/

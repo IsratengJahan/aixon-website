@@ -1,0 +1,23 @@
+/*==============================================
+    Registration One
+===============================================*/
+.registration-one {
+    position: relative;
+    display: block;
+    padding: 135px 0 0px;
+    z-index: 1;
+}
+
+.registration-one__input-box.text-message-box {
+    height: 140px;
+    margin-bottom: 40px;
+}
+
+.registration-one__btn-box {
+    position: relative;
+    display: block;
+}
+
+/*--------------------------------------------------------------
+# End
+--------------------------------------------------------------*/
